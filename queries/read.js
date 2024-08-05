@@ -1,4 +1,3 @@
-const { json } = require('body-parser');
 const pool = require('./index');
 
 //querie strings
