@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { query } = require('express');
+
 const {viewEmployees, viewRoles, viewDepartments} = require('../queries/read');
 
 router.get('/employees',(req,res)=>{

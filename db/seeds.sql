@@ -28,7 +28,7 @@ DO $$
         ('performance',60000,4),
         ('HR-lead',85000,4);
     
-    insert into employee(first_name,last_name,role_id,manager_id) values
+    insert into employee(first_name,last_name, ,manager_id) values
         ('penelope','casey',4,null),
         ('haider','oneill',1,1),
         ('anita','wu',2,1),
