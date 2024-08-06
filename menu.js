@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const { viewInfo } = require("./helper");
+const { viewInfo, addRole} = require("./helper");
 
 
 
@@ -74,6 +74,7 @@ function menu(){
                 menu();
                 break;
             case "Add Role":
+                addRole([choice.roleName, choice.roleSalary, choice.roleDepartment]);
                 menu();
                 break;
             case "View All Departments":
