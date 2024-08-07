@@ -6,6 +6,7 @@ const updateData = require('./updateData');
 
 router.use('/getData', getData);
 router.use('/addData', addData);
+router.use('/updateData',updateData);
 
 
 

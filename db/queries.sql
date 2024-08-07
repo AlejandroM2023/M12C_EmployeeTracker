@@ -1,7 +1,6 @@
 --view all employees
 
-select employeeinfo.id, employeeinfo.first_name, employeeinfo.last_name, role.title,  department.name, role.salary, manager.first_name
-from employee employeeinfo left join employee manager on manager.id = employeeinfo.manager_id join role on employeeinfo.role_id = role.id join department on role.department = department.id;
+select employeeinfo.id, employeeinfo.first_name, employeeinfo.last_name, role.title,  department.name, role.salary, manager.first_name from employee employeeinfo left join employee manager on manager.id = employeeinfo.manager_id join role on employeeinfo.role_id = role.id join department on role.department = department.id;
 
 
 
